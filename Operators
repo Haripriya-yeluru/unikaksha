@@ -78,4 +78,37 @@ print(f'Required length is {2*(l+b)} m')
 print(f'Required quantity of carpet is {l*b} sqm')
 
 
-#
+#Power of a Number
+
+x=int(input())
+n=int(input())
+print(pow(x,n))
+
+
+#Simple Interest
+
+p=int(input())
+t=int(input())
+r=float(input())
+print(p*t*r/100)
+
+
+#Splitting into Teams
+
+s=int(input())
+t=int(input())
+h=s//t
+f=s%t
+print('The number of students in each team is', h ,' and left out is', f)
+
+
+#Three Idiots
+
+x1=int(input())
+y1=int(input())
+x2=int(input())
+y2=int(input())
+m1=(x1+x2)/2
+m2=(y1+y2)/2
+print("Binoy's house is located at",(m1,m2))
+
